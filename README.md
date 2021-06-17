@@ -1,7 +1,21 @@
 # Talk info
 
-Title: Crochet Patterns are Computer Programs
-Abstract: During the pandemic, I picked up crocheting again after a 15+ year hiatus. As I stitched many hats, a few blankets, and dozens of miniature three-dimensional stuffed animals, I couldn't help but notice striking parallels between reading crochet patterns and reading lines of code. It turns out that the concept of written instructions for automating the creation of textiles predates the world's first computer program (written by none other than Ada Lovelace), and fibre arts are a lot more like programming than many of us suspect! This talk will be a loosely structured set of reflections on the relationship between the fibre arts and computer programming.
+#### Title
+Crochet Patterns are Computer Programs
+
+#### Abstract
+During the pandemic, I picked up crocheting again after a 15+ year hiatus. As I stitched many hats, a few blankets, and dozens of miniature three-dimensional stuffed animals, I couldn't help but notice striking parallels between reading crochet patterns and reading lines of code. It turns out that the concept of written instructions for automating the creation of textiles predates the world's first computer program (written by none other than Ada Lovelace), and fibre arts are a lot more like programming than many of us suspect! This talk will be a loosely structured set of reflections on the relationship between the fibre arts and computer programming.
+
+#### Goal & Audience
+
+The first iteration of this talk is for GitHub's internal annual conference. I'm hoping to take it on the road afterwards!
+
+The audience for this talk will broadly be:
+
+* Working in the tech industry, with some knowledge of programming, though not necessarily a software engineer
+* Probably unfamiliar with crocheting, knitting, or specific fibre arts
+
+My goal is to show people that the principles of computer programming have existed for a long time in the realm of the fibre arts, and get people thinking about other unlikely places where "computer programs" can exist!
 
 ## A note to reviewers & idea-bouncers:
 
@@ -28,7 +42,6 @@ There is an issue template in this repository that you can use if you'd like! If
 That's OK! I want to be considerate of your time, and I'd still love your input. I'm curious to hear your input on these 2.5 questions:
 
 1. In what ways does [crocheting, knitting, cross-stitch, weaving, etc] remind you of writing, reading, and debugging computer programs?
-
 1. How would you explain your fibre art craft to a fellow programmer, if you wanted to convince them to give it a try?
 
 I will synthesize the responses and pull common threads out of them (pun very intended). There is an issue template in this repository that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
@@ -36,18 +49,6 @@ I will synthesize the responses and pull common threads out of them (pun very in
 ### I thought this was a talk?
 
 I start out by writing my talks as blog posts. This helps me organize the narrative, and iterate the tone that I'm going for. Much of the text here will end up in speaker notes, rather than on the actual slides.
-
-## Goal & Audience
-
-The first iteration of this talk is for GitHub's internal annual conference. I'm hoping to take it on the road afterwards!
-
-The audience for this talk will broadly be:
-
-* Working in the tech industry, with some knowledge of programming, though not necessarily a software engineer
-* Probably unfamiliar with crocheting, knitting, or specific fibre arts
-
-My goal is to show people that the principles of computer programming have existed for a long time in the realm of the fibre arts, and get people thinking about other unlikely places where "computer programs" can exist!
-
 
 ## Introduction
 
@@ -57,7 +58,7 @@ Now that I think back on it, I've always had problems with staying focused on an
 
 ## The pattern is the program
 
-What _is_ a computer program? I think this story should start at the fundamentals.
+What _is_ a computer program? I think this story should start with the fundamentals.
 
 The simplest definition (that I can think of) is that a computer program is a set of instructions, written by a human, to be executed by a computer. In carrying out the instructions, the computer will manipulate various resources (CPU, memory, hardware devices, hardware inputs) to produce a desired outcome.
 
@@ -87,7 +88,7 @@ https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom.
 
 ## Programming paradigms and styles
 
-Modern programming languages feature many different ways to achieve the same end. I mean, have you ever seen Ruby? (Said with love. I love Ruby.) The path that we often choose for a programming solution is more influenced by the code's readability and maintainability by other humans. To a machine, there is no such thing as messy code: the names and abstractions we introduce along the way are for the sake of other humans.
+Modern programming languages feature many different ways to achieve the same end. I mean, have you ever seen Ruby? (Said with love. I love Ruby.) The path that we often choose for a programming solution is more influenced by the code's readability and maintainability by other humans. To a machine, there is no such thing as messy code: the names and abstractions we introduce along the way are for the benefit of other humans.
 
 Recall the earlier discussion about resource manipulation. Sometimes, humans will encode a lot of detail in how those resources get manipulated. Put this value in this register, cache this thing, forget that thing. Other times, we'll be less particular about how the outcome is delivered, so long as it *is* delivered, of course.
 

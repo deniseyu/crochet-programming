@@ -1,0 +1,16 @@
+name: Feedback
+description: Give me feedback on the content in the README!
+body:
+- type: textarea
+    attributes:
+      label: Would you add or cut anything?
+- type: textarea
+  attributes:
+    label: Did anything jump out to you as jargon-filled, tenuous, or unnecessary?
+- type: textarea
+  attributes:
+    label: What would you expect to get out of a talk with this title and abstract? Did you feel like this outline delivered on that?
+- type: input
+  attributes:
+    label: Your name or handle
+    description: If you are OK with me crediting you for this contribution at the end of my talk in a "Thank you to..." slide, let me know what name or handle you'd like me to use! Write "no" or leave blank if you prefer not.

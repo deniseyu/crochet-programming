@@ -1,0 +1,13 @@
+name: Contribute your thoughts
+description: Don't have time to read the post, but have some experience with fibre arts and programming? I still want to hear your thoughts!
+body:
+- type: textarea
+  attributes:
+    label: In what ways does [crocheting, knitting, cross-stitch, weaving, etc] remind you of writing, reading, and debugging computer programs?
+- type: textarea
+  attributes:
+    label: How would you explain your fibre art craft to a fellow programmer, if you wanted to convince them to give it a try?
+- type: input
+  attributes:
+    label: Your name or handle
+    description: If you are OK with me crediting you for this contribution at the end of my talk in a "Thank you to..." slide, let me know what name or handle you'd like me to use! Write "no" or leave blank if you prefer not.
