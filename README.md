@@ -35,7 +35,7 @@ I am specifically looking for feedback in these areas:
 * Did anything jump out to you as jargon-filled, tenuous, or unnecessary?
 * What would you expect to get out of a talk with this title and abstract? Did you feel like this outline delivered on that?
 
-There is an issue template in this repository that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
+There is [an issue template in this repository](https://github.com/deniseyu/crochet-programming/issues/new?assignees=&labels=&template=did_read.yaml) that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
 
 ### If you don't have time to read
 
@@ -44,7 +44,7 @@ That's OK! I want to be considerate of your time, and I'd still love your input.
 1. In what ways does [crocheting, knitting, cross-stitch, weaving, etc] remind you of writing, reading, and debugging computer programs?
 1. How would you explain your fibre art craft to a fellow programmer, if you wanted to convince them to give it a try?
 
-I will synthesize the responses and pull common threads out of them (pun very intended). There is an issue template in this repository that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
+I will synthesize the responses and pull common threads out of them (pun very intended). There is [an issue template in this repository](https://github.com/deniseyu/crochet-programming/issues/new?assignees=&labels=&template=didnt_read.yaml) that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
 
 ### I thought this was a talk?
 

@@ -1,4 +1,5 @@
 name: Contribute your thoughts
+title: I have thoughts!
 description: Don't have time to read the post, but have some experience with fibre arts and programming? I still want to hear your thoughts!
 body:
 - type: textarea
@@ -7,6 +8,9 @@ body:
 - type: textarea
   attributes:
     label: How would you explain your fibre art craft to a fellow programmer, if you wanted to convince them to give it a try?
+- type: textarea
+  attributes:
+    label: Any other thoughts?
 - type: input
   attributes:
     label: Your name or handle
