@@ -2,8 +2,8 @@ name: Feedback
 description: Give me feedback on the content in the README!
 body:
 - type: textarea
-    attributes:
-      label: Would you add or cut anything?
+  attributes:
+    label: Would you add or cut anything?
 - type: textarea
   attributes:
     label: Did anything jump out to you as jargon-filled, tenuous, or unnecessary?
