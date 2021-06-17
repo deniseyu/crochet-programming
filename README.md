@@ -39,7 +39,7 @@ There is [an issue template in this repository](https://github.com/deniseyu/croc
 
 ### If you don't have time to read
 
-That's OK! I want to be considerate of your time, and I'd still love your input. I'm curious to hear your input on these 2.5 questions:
+That's OK! I want to be considerate of your time, and I'd still love your input. I'm curious to hear your input on these questions:
 
 1. In what ways does [crocheting, knitting, cross-stitch, weaving, etc] remind you of writing, reading, and debugging computer programs?
 1. How would you explain your fibre art craft to a fellow programmer, if you wanted to convince them to give it a try?
