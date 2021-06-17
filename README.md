@@ -83,8 +83,10 @@ With all of these thoughts swirling around the back of my head for the last year
 
 There's actually a very good historical reason why writing a crochet pattern and writing a computer program feel like they're tugging on the same brain muscles. It turns out that the world's first computer programs, from the Babbage & Lovelace days, were actually directly influenced by the fibre arts!
 
-< TODO: summarize Jacquard loom history >
+TODO: summarize Jacquard loom history
 https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom.
+
+TODO: Maybe also mention the Apollo rope memory story: https://spectrum.ieee.org/tech-history/space-age/software-as-hardware-apollos-rope-memory
 
 ## Programming paradigms and styles
 
