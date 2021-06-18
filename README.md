@@ -1,22 +1,3 @@
-# Talk info
-
-#### Title
-Crochet Patterns are Computer Programs
-
-#### Abstract
-During the pandemic, I picked up crocheting again after a 15+ year hiatus. As I stitched many hats, a few blankets, and dozens of miniature three-dimensional stuffed animals, I couldn't help but notice striking parallels between reading crochet patterns and reading lines of code. It turns out that the concept of written instructions for automating the creation of textiles predates the world's first computer program (written by none other than Ada Lovelace), and fibre arts are a lot more like programming than many of us suspect! This talk will be a loosely structured set of reflections on the relationship between the fibre arts and computer programming.
-
-#### Goal & Audience
-
-The first iteration of this talk is for GitHub's internal annual conference. I'm hoping to take it on the road afterwards!
-
-The audience for this talk will broadly be:
-
-* Working in the tech industry, with some knowledge of programming, though not necessarily a software engineer
-* Probably unfamiliar with crocheting, knitting, or specific fibre arts
-
-My goal is to show people that the principles of computer programming have existed for a long time in the realm of the fibre arts, and get people thinking about other unlikely places where "computer programs" can exist!
-
 ## A note to reviewers & idea-bouncers:
 
 Hello! Thank you so much for your willingness to help with this talk. It's so cool that there are so many of us at the intersection of programming and fibre arts.
@@ -46,6 +27,27 @@ That's OK! I want to be considerate of your time, and I'd still love your input.
 
 I will synthesize the responses and pull common threads out of them (pun very intended). There is [an issue template in this repository](https://github.com/deniseyu/crochet-programming/issues/new?assignees=&labels=&template=didnt_read.yaml) that you can use if you'd like! If you don't have a GitHub account, you can email me at yu.denise.d@gmail.com or [DM me on Twitter](https://twitter.com/deniseyu21).
 
+------------
+
+# Talk info
+
+#### Title
+Crochet Patterns are Computer Programs
+
+#### Abstract
+During the pandemic, I picked up crocheting again after a 15+ year hiatus. As I stitched many hats, a few blankets, and dozens of miniature three-dimensional stuffed animals, I couldn't help but notice striking parallels between reading crochet patterns and reading lines of code. It turns out that the concept of written instructions for automating the creation of textiles predates the world's first computer program (written by none other than Ada Lovelace), and fibre arts are a lot more like programming than many of us suspect! This talk will be a loosely structured set of reflections on the relationship between the fibre arts and computer programming.
+
+#### Goal & Audience
+
+The first iteration of this talk is for GitHub's internal annual conference. I'm hoping to take it on the road afterwards!
+
+The audience for this talk will broadly be:
+
+* Working in the tech industry, with some knowledge of programming, though not necessarily a software engineer
+* Probably unfamiliar with crocheting, knitting, or specific fibre arts
+
+My goal is to show people that the principles of computer programming have existed for a long time in the realm of the fibre arts, and get people thinking about other unlikely places where "computer programs" can exist!
+
 ### I thought this was a talk?
 
 I start out by writing my talks as blog posts. This helps me organize the narrative, and iterate the tone that I'm going for. Much of the text here will end up in speaker notes, rather than on the actual slides.
@@ -67,6 +69,9 @@ I couldn't help but notice many similarities between reading crochet patterns an
 In both cases, we have:
 
 * **Standardized structure**. Instructions often declare the required stitches, hook size, yarn weight, and yardage required before the body of the pattern, to help the crocheter decide if this is a pattern they currently have the resources to "run". It's heartbreaking to start a pattern, only to run out of yarn before it's finished! Many programming languages require upfront resource allocation: COBOL is one example of a language where memory allocation has to be declared ahead of the actual program (show example), in a structure that looks quite similar to a crochet pattern!
+  
+  <img width="383" alt="Screen Shot 2021-06-17 at 8 36 02 PM" src="https://user-images.githubusercontent.com/8420094/122488595-c7994500-cfab-11eb-8051-25d959eec160.png">
+
   * Related, it's common for patterns for larger objects (which take more time to create) or objects for which gauge really matters (ex. a cover for an iPad, where you want it to fit snug) to provide guidelines for a "test swatch". Before you start the big project, you create a small square, and measure it with it with a ruler to make sure it's as long and wide as the pattern author suggests. This gives the crocheter feedback about whether their stitches are too tight or loose, and maybe they should opt for a larger or smaller hook, to achieve the correct gauge. This kind of feels like running a systems diagnostic test!
 
 
@@ -96,9 +101,23 @@ Recall the earlier discussion about resource manipulation. Sometimes, humans wil
 
 In computer programming, we call these two ends of the spectrum of human intervention, *imperative* versus *declarative* programming paradigms. Imperative languages contain detailed specification about _how_ the outcome is achieved. Think about Assembly code, which requires the programmer to know pretty gory details about the machine architecture, so that she can tell a computer program exactly which bytes to move to which location! That's a very imperative, very procedural way of writing code. On the other hand, think about SQL or CSS. I think CSS is a great example of declarative code, because when you say to your stylesheet, "Give my box 10 pixels of padding", the typical programmer knows not (and cares not) about exactly _how_ those pixels are painted.
 
-The majority of crochet patterns will make you feel like you're reading procedural code: (show snippet from Octopus pattern)
+The majority of crochet patterns will make you feel like you're reading procedural code:
 
-There are different ways of representing the same information. You know how the same song can be written in formal musical notation, or as a guitar tab? I loved discovering different forms of notation (show Inverness scarf diagram). Often, an author will include the instructions in written form as well as in a diagram, like you see here. But sometimes, all you get is the diagram! (show Japanese hat pattern)
+<img width="194" alt="Screen Shot 2021-06-17 at 8 40 53 PM" src="https://user-images.githubusercontent.com/8420094/122488836-527a3f80-cfac-11eb-81a8-9a8836dcdd70.png">
+(From https://mspremiseconclusion.files.wordpress.com/2012/07/crochet-totoro.pdf)
+
+
+There are different ways of representing the same information. You know how the same song can be written in formal musical notation, or as a guitar tab? I loved discovering different forms of notation:
+
+<img width="696" alt="Screen Shot 2021-06-17 at 8 44 21 PM" src="https://user-images.githubusercontent.com/8420094/122489057-ce748780-cfac-11eb-9071-26472f66b836.png">
+(From https://thecrochetcrowd.com/crochet-cablework-afghan-tutorial/)
+
+
+Often, an author will include the instructions in written form as well as in a diagram, like you see here. But sometimes, all you get is the diagram!
+
+<img width="536" alt="Screen Shot 2021-06-17 at 8 46 14 PM" src="https://user-images.githubusercontent.com/8420094/122489181-109dc900-cfad-11eb-8838-971883989679.png">
+(From https://www.gosyo.co.jp/english/pattern/eHTML/hat.html)
+
 
 As I followed dozens of patterns, I learned a few basic principles about pattern design. (Probably not going to include all of these in the talk)
 
@@ -107,13 +126,13 @@ As I followed dozens of patterns, I learned a few basic principles about pattern
 * For flat circles, you start from the center and increment by one stitch, every N stitches, where N is the row number that you're on. (Show visually, where magic circle has 6 stitches, it goes 6, 12, 18, 24, 30) Otherwise, the circle won't lay flat, and it will start to take on three dimensional shape. There's actually a lot of math involved in crochet pattern-making!
 * When you're incrementing or decrementing, you want to spread out those stitches, otherwise the object will have a bulging or scrunching effect in that one spot.
 
-I wondered if it was possible to express crochet patterns in a way that was more like SQL or CSS, than COBOL. Was it possible to declaratively express the desired outcome of a crochet pattern, that left room for creativity in the hands of the crocheter? I wasn't sure, because I hadn't really seen any declarative representations.
+I wondered if it was possible to express crochet patterns in a way that was more like SQL or CSS, than COBOL. Was it possible to declaratively express the desired outcome of a crochet pattern, that left room for creativity in the hands of the crocheter? I wasn't sure, because I hadn't really seen any declarative representations. Crocheting had more similarities to Assembly code than to high-level, abstracted programming languages: most crochet patterns were designed for a specific set of inputs (yarn weight, hook size, etc) -- in other words, they were closely coupled to the specific "architecture" of the system in which they'd be "run". I'm not really sure how and where you'd introduce the concept of abstraction.
 
 Then, I learned about freehand crocheting.
 
 ## Writing the program is the easy part
 
-There exist people who can look at a finished object, and figure out how it's made without following a pattern. That, to me, felt like an amazingly difficult thing to do. I started searching online for advice about how one can get started with freehand crochet.
+There exist people who can look at a finished object, and figure out how it's made without following a pattern. Or, they might just start with an idea, and start improvising. That, to me, felt like an amazingly difficult thing to do. I started searching online for advice about how one can get started with freehand crochet.
 
 Generally that advice was:
 
